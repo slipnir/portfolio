@@ -33,9 +33,10 @@ p {
 }
 .home {
     display: flex;
+    flex-wrap: wrap;
 }
 .left-col {
-    flex-basis: 50%;
+    flex: 1;
     background-color: #201a1c;
     padding: 20px;
 }
@@ -49,11 +50,11 @@ p {
 }
 .right-col {
     display: flex;
-    padding: 20px;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-basis: 50%;
+    padding: 20px;
 }
 
 
@@ -75,3 +76,87 @@ p {
     flex: 1;
 }
 
+
+.skill-box {
+    display: flex;
+}
+
+.owl-nav {
+    display: none;
+}
+.owl-dot {
+    outline: none;
+}
+
+
+
+.projects {
+    height: 100vh;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    position: relative;
+    margin: 10px;
+    -webkit-box-shadow: 0 5px 30px 0 #00000070;
+    -moz-box-shadow: 0 5px 30px 0 #00000070;
+    box-shadow: 0 5px 30px 0 #00000070;
+}
+.item__options {
+    padding: 10px;
+    position: relative;
+    background-color: #00000090;
+}
+.item__link li > a {
+    text-decoration: none;
+}
+.item__options p {
+    color: white;
+}
+.item__options ul {
+    list-style: none;
+    color: #f5eee9;
+    font-size: 25px;
+    padding: 0 40px;
+}
+.item__options ul > li {
+    padding-left: 60px;
+    font-size: 20px;
+    background: url("../vendor/images/terminal.png") no-repeat 42px 1px;
+    background-size: 32px;
+}
+
+.infanta:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../vendor/images/infantaFullHD.png");
+    background-size: cover;
+    filter: grayscale(50%);
+}
+.windsor:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../vendor/images/windsorFullHD.png");
+    background-size: cover;
+    filter: grayscale(50%);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-block {
+    width: 100%;
+}

@@ -6,6 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Portfolio page</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">-->
 </head>
 <body>
 	<div class="wrapper">
@@ -32,10 +35,43 @@
 				<div class="title__text">Навыки</div>
 				<div class="title__line"></div>
 			</div>
-			<div class="content">
-				<div class="skill-card html"></div>
-				<div class="skill-card css"></div>
-				<div class="skill-card js"></div>
+			<div class="skill-box owl-carousel owl-theme">
+				<div class="skill-card">
+					<img src="vendor/images/html5.png" alt="html5" title="html5">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/css3.png" alt="css3" title="css3">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/js.png" alt="javascript" title="javascript">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/jquery.png" alt="jQuery" title="jQuery">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/github.png" alt="github" title="github">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/ps.png" alt="photoshop" title="photoshop">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/ai.png" alt="illustrator" title="illustrator">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/boostrap.png" alt="" title="bootstrap">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/wp.png" alt="wordpress" title="wordpress">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/drupal.png" alt="drupal" title="drupal">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/zeplin.png" alt="zeplin" title="zeplin">
+				</div>
+				<div class="skill-card">
+					<img src="vendor/images/less.png" alt="less" title="less">
+				</div>
 			</div>
 		</div>
 		<div class="section projects">
@@ -43,12 +79,77 @@
 				<div class="title__text">Проекты</div>
 				<div class="title__line"></div>
 			</div>
-			<div class="content">
-				<div class="gallery"></div>
+			<div class="gallery">
+				<div class="item windsor">
+					<div class="item__options">
+						<ul class="item__name">Что это
+							<li>Windsor - школа английского языка</li>
+						</ul>
+						<ul class="item__works">Что сделано
+							<li>Доработка верстки</li>
+							<li>Создание шаблонов под CMS bitrix</li>
+						</ul>
+						<ul class="item__link">Посмотреть
+							<li><a href="https://www.windsor.ru" target="_blank">https://www.windsor.ru</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="item infanta">
+					<div class="item__options">
+						<ul class="item__name">Что это
+							<li>Infanta - салон красоты</li>
+						</ul>
+						<ul class="item__works">Что сделано
+							<li>Верстка по технологии Bootstrap 3</li>
+							<li>Создание шаблонов под CMS modX</li>
+						</ul>
+						<ul class="item__link">Посмотреть
+							<li><a href="http://www.infanta.ru" target="_blank">http://www.infanta.ru</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="item infanta">
+					<div class="item__options">
+						<ul class="item__name">Что это
+							<li>Infanta - салон красоты</li>
+						</ul>
+						<ul class="item__works">Что сделано
+							<li>Верстка по технологии Bootstrap 3</li>
+							<li>Создание шаблонов под CMS modX</li>
+						</ul>
+						<ul class="item__link">Посмотреть
+							<li><a href="http://www.infanta.ru" target="_blank">http://www.infanta.ru</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section contacts">
+			<div class="title">
+				<div class="title__text">Контакты</div>
+				<div class="title__line"></div>
+			</div>
+			<div class="info">
+				<div class="social-block">
+					<a href="#"><img src="vendor/images/vk-brands.svg" alt="vkontakte" title="vkontakte"></a>
+				</div>
+				<div class="social-block">
+					<a href="#"><img src="vendor/images/facebook-brands.svg" alt="facebook" title="facebook"></a>
+				</div>
+				<div class="social-block">
+					<a href="#"><img src="vendor/images/skype-brands.svg" alt="skype" title="skype"></a>
+				</div>
+				<div class="social-block">
+					<a href="#"><img src="vendor/images/github-brands.svg" alt="github" title="github"></a>
+				</div>
+				<div class="social-block">
+					<a href="#"><img src="vendor/images/codepen-brands.svg" alt="codepen" title="codepen"></a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/app.js"></script>
+	<script src="js/owl.carousel.js"></script>
 </body>
 </html>
